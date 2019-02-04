@@ -15,6 +15,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/item_staggered_grid"
-        android:layoutDirection="rtl"/>
+        android:layoutDirection="rtl"
+        android:importantForAccessibility="yes"/>
 
 </android.support.constraint.ConstraintLayout>
